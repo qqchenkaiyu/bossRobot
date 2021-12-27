@@ -9,6 +9,7 @@ import lombok.Data;
 @Data
 public class Candidate {
     private String name;
+    private String year;
     private Integer age;
     private String school;
     private String work;
